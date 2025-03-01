@@ -1,8 +1,8 @@
-# immich album upload
-Simple script that wraps around the immichcli to upload a dir of photos/videos as a custom album in Immich.
+# Immich Upload Abum Script
+Simple script that wraps around the [Immichcli](https://immich.app/docs/features/command-line-interface/) to upload a dir of photos/videos as a custom album in [Immich](https://immich.app/).
 
 ## Setup
-Make your immich api key an ENV VAR
+Make your immich API key an ENV VAR
 ```
 export IMMICH_API_KEY=<immich-api-key>
 ```
