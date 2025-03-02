@@ -1,14 +1,12 @@
 #!/bin/bash
 
 IMMICH_API_KEY="$IMMICH_API_KEY"
+IMMICH_INSTANCE_URL="$IMMICH_INSTANCE_URL"
 
 # todo check api key is not null
 
-while getopts ":u:i:a:" choice; do
+while getopts ":i:a:" choice; do
   case $choice in
-    u)
-      IMMICH_INSTANCE_URL="$OPTARG"
-      ;;
     i)
       INPUT_DIR="$OPTARG"
       ;;
