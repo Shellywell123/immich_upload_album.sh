@@ -16,5 +16,5 @@ sudo chmod +x /usr/local/bin/immich_upload_album
 ## Usage
 Execute script like so
 ```
-immich_upload_album -u <immich-instance-url>/api -i /path/to/album/dir -a "Album Name in Immich"
+immich_upload_album -i /path/to/album/dir -a "Album Name in Immich"
 ```
