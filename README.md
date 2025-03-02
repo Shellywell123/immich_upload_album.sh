@@ -1,4 +1,4 @@
-# Immich Upload Abum Script
+# Immich Upload Album Script
 Simple script that wraps around the [Immichcli](https://immich.app/docs/features/command-line-interface/) to upload a dir of photos/videos as a custom album in [Immich](https://immich.app/).
 
 ## Setup
